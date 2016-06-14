@@ -28,6 +28,7 @@ public class WifiDirectActivity extends BaseActivity {
     private HttpServer httpServer;
 
     @Override
+    @android.annotation.SuppressLint("WrongConstant")
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.log);
